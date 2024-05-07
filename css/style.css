@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Covered+By+Your+Grace&display=swap');
+html{
+    font-size: 62.5%;
+}
+:root{
+    --bcg-color:#E0EBE8;
+    --txt-color:#4AB19A;
+    --about-color: #21564B;
+    --introbcg: #FFFFFF;
+    --introtxt: #545454;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: "Cabin", sans-serif;;
+}
+#hdr{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: var(--bcg-color);
+    transition: top 0.5s;
+}
+nav{
+    padding: 4rem 18%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    overflow: hidden;
+}
+.abt{
+    color: var(--about-color);
+}
+.work{
+    color: var(--txt-color);
+}
+.notes{
+    color: var(--txt-color);
+}
+.nav-items a{
+    font-size: 1.8rem;
+    margin-right: 3rem;
+    font-family: "Cabin", sans-serif;;
+    
+}
+
+.logo{
+    /* width: 100px;
+    height: 100px; */
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--bcg-color);
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50%);
+    mix-blend-mode: multiply;
+
+}
+.hero-section{
+    width: 100%;
+    height: calc(100% - 100px) ;
+    position: relative;
+    top: 100px;
+    background-color: var(--bcg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 18%;
+    overflow: hidden;
+}
+.txt{
+    text-align: center;
+    margin-top: 250px;
+}
+.txt h1{
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-size: 6rem;
+    color: var(--txt-color);
+}
+.txt h3{
+    font-size: 2.8rem;
+    color: var(--txt-color);
+}
+.image{
+    background-color: var(--bcg-color);
+    /* width: 500px;
+    height: 500px; */
+    width: 50rem;
+    height: 50rem;
+    margin-bottom: 17rem;
+
+}
+.image img{
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 3rem 18%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--introbcg);
+   
+}
+.image1{
+    /* width: 210px;
+    height: 210px; */
+    width: 21rem;
+    height: 21rem;
+    overflow: hidden;
+    background-color: var(--introbcg);
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+.txt1{
+    width: 38rem;
+}
+.txt1 h1{
+    font-size: 3rem;
+    color: var(--txt-color);
+    
+}
+.txt1 p{
+    font-size: 1.8rem;
+    color: var(--introtxt);
+    line-height: 3rem;
+}
+.intro2{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 3rem 18%;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    background-color: var(--introbcg);
+   
+}
+.imggiftxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+.txtgifimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+.imggiftxt .txtt h1{
+    font-size: 2.5rem;
+    text-align: justify;
+}
+.txtgifimg .txttt h1{
+    font-size: 2.5rem;
+    text-align: justify;
+}
+.imggiftxt .txtt p{
+    font-size: 1.7rem;
+    text-align: justify;
+    color: var(--introtxt);
+    width: 35rem;
+    margin-top: 2rem;
+    line-height: 3.4rem;
+}
+.txtgifimg .txttt p{
+    font-size: 1.7rem;
+    text-align: justify;
+    color: var(--introtxt);
+    width: 35rem;
+    margin-top: 2rem;
+    line-height: 3.4rem;
+}
+.intro2 .imggiftxt img{
+    /* width: 210px;
+    height: 210px; */
+    width: 21rem;
+    height: 21rem;
+    overflow: hidden;
+    background-color: var(--introbcg);
+    display: flex;
+
+}
+.intro2 h1{
+    color: var(--txt-color);
+    font-size: 4rem;
+    font-weight: 600;
+}
+.intro2 .txtgifimg img{
+    /* width: 210px;
+    height: 210px; */
+    width: 21rem;
+    height: 21rem;
+    overflow: hidden;
+    background-color: var(--introbcg);
+}
+.intro3{
+    width: 100%;
+    /* height: calc(100% - 100px); */
+    height: 80%;
+    padding: 3rem 18%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--introbcg);
+    margin-top: 20rem;
+}
+.intro3 h1{
+    
+    color: var(--txt-color);
+    font-size: 4rem;
+    font-weight: 600;
+}
+.intro3 h3{
+    color: var(--txt-color);
+    font-size: 2.4rem;
+    line-height: 12rem;
+}
+.intro3 p{
+    color: var(--introtxt);
+    font-size: 2rem;
+    width: 60rem;
+   letter-spacing: .05rem;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--introtxt);
+    background-color: var(--txt-color);
+    outline: none;
+    margin-top: 5rem;
+    padding: 1rem ;
+    border: none;
+    border-radius: .5rem;
+    width: 15rem;
+}
+.btn:hover{
+    background-color: #3EA08A;
+}
+footer{
+    width: 100%;
+    height: 260px;
+    padding: 3rem 18%;
+    background-color: var(--bcg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.links a{
+    margin-right: 5rem;
+    text-decoration: none;
+    color: var(--txt-color);
+    font-size: 1.8rem;
+}
+footer p{
+    color: var(--txt-color);
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+}
+footer p span{
+    text-decoration-line: underline;
+    text-decoration-color: var(--txt-color);
+    letter-spacing: .05rem;
+}
+
+
+@media screen and (max-width: 960px){
+    html{
+        font-size: 48%;
+    }
+    .intro3{
+        height: 50%;
+        margin-bottom: 10rem;
+    }
+    .imggiftxt{
+        min-width: 100%;
+        
+    }
+    .txtgifimg{
+        min-width: 100%;
+        
+    }
+    .imggiftxt img{
+        min-width: 150px;
+        min-height: 150px;
+    }
+    .txtgifimg img{
+        min-width: 150px;
+        min-height: 150px;
+    }
+    
+
+}
+@media screen and (max-width: 620px){
+    html{
+        font-size: 46.5%;
+    }
+    .intro3{
+        height: 55%;
+        margin-top: 0;
+        margin-bottom: 20rem;
+       
+    }
+    .intro3 h1{
+        line-height: 5rem;
+    }
+    .intro3 h3{
+        line-height: 6.5rem;
+        font-size: 2.5rem;
+        width: 100%;
+        
+    }
+    .intro3 p{
+        line-height: 6.5rem;
+        font-size: 2.5rem;
+        width: 100%;
+        
+    }
+    
+    .imggiftxt{
+        min-width: 100%;
+        
+    }
+    .txtgifimg{
+        min-width: 100%;
+        
+    }
+    .imggiftxt img{
+        min-width: 140px;
+        min-height: 140px;
+    }
+    .txtgifimg img{
+        min-width: 140px;
+        min-height: 140px;
+    }
+    
+    
+
+}
+@media screen and (max-width: 450px){
+    html{
+        font-size: 45.5%;
+    }
+    .intro3{
+        height: 100%;
+        margin-top: 280px;
+        margin-bottom: 0rem;
+       
+    }
+    .intro3 h1{
+        line-height: 5rem;
+    }
+    .intro3 h3{
+        line-height: 6.5rem;
+        font-size: 2.5rem;
+        width: 100%;
+        
+    }
+    .intro3 p{
+        line-height: 6.5rem;
+        font-size: 2.5rem;
+        width: 100%;
+        
+    }
+    
+    .imggiftxt{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .imggiftxt .txtt h1, .imggiftxt .txtt p {
+        text-align: center;
+        
+        
+    }
+    .txtgifimg .txttt h1, .txtgifimg .txttt p {
+        text-align: center;
+        
+        
+    }
+    .imggiftxt .txtt h1, .txtgifimg .txttt h1{
+        font-size: 3rem;
+        
+
+    }
+    .imggiftxt .txtt p, .txtgifimg .txttt p{
+        font-size: 1.8rem;
+
+    }
+    
+    
+
+    
+    .txtgifimg{
+        min-width: 100%;
+        flex-direction: column;
+        
+    }
+    .imggiftxt img{
+        width: 100px;
+        height: 100px;
+    }
+    .txtgifimg img{
+        width: 100px;
+        height: 100px;
+    }
+   .hero-section{
+    width: 100%;
+
+   }
+   .her-secion .image{
+    width: 100%;
+   }
+    
+
+}
