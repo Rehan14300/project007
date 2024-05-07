@@ -119,6 +119,7 @@ nav{
 .intro{
     width: 100%;
     height: calc(100% - 100px);
+    margin-top:4rem;
     padding: 3rem 18%;
     text-align: center;
     display: flex;
